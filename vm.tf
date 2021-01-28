@@ -13,4 +13,5 @@ resource "ibm_compute_vm_instance" "test" {
   user_metadata            = "{\"value\":\"newvalue\"}"
   dedicated_acct_host_only = true
   local_disk               = false
+  hostname = "testterraform"
 }
